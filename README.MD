@@ -1,0 +1,17 @@
+# SHOUTCLOUD.NET
+ASYNCHRONOUS WEBSCALE UPPERCASE AS A SERVICE - http://shoutcloud.io/
+
+## INSTALLING
+
+```
+PM> INSTALL-PACKAGE SHOUTCLOUD.NET
+```
+
+## USAGE
+
+```csharp
+using SHOUTCLOUD;
+
+var HELLO = await SHOUTCLOUD.UPCASE("hello world");
+// FULLY ASYNCHRONOUS!
+```
