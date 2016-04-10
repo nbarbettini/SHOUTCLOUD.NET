@@ -11,7 +11,6 @@
   },
   "description": "TESTS FOR THE SHOUTCLOUD.NET LIBRARY",
   "frameworks": {
-    "dnx451": { },
     "dnxcore50": {
       "dependencies": {
         "Microsoft.CSharp": "4.0.1-beta-23516",
@@ -22,9 +21,7 @@
       }
     }
   },
-  "licenseUrl": "",
-  "projectUrl": "",
-  "tags": [ "" ],
+  "repository": { "url": "https://github.com/nbarbettini/SHOUTCLOUD.NET" },
   "tooling": {
     "defaultNamespace": "SHOUTCLOUD.TEST"
   },

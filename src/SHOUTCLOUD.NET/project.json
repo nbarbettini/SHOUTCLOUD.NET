@@ -26,9 +26,8 @@
       }
     }
   },
-  "licenseUrl": "",
-  "projectUrl": "",
-  "tags": [ "" ],
+  "repository": { "url": "https://github.com/nbarbettini/SHOUTCLOUD.NET" },
+  "tags": [ "uppercase shout cloud" ],
   "tooling": {
     "defaultNamespace": "SHOUTCLOUD"
   },
