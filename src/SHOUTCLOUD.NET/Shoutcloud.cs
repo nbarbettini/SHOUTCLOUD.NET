@@ -16,7 +16,8 @@ namespace SHOUTCLOUD
             var client = new HttpClient();
 
             var payload = new { INPUT = input };
-            var content = new StringContent(JsonConvert.SerializeObject(payload), Encoding.UTF8, "application/json");
+            var content = new StringContent(JsonConvert.SerializeObject(payload));
+            content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
 
             var response = await client.PostAsync(SERVICE_URL, content, cancellationToken);
             response.EnsureSuccessStatusCode(); // THROW IF ERROR
